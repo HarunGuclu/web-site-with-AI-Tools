@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Harun Güçlü</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;700;900&display=swap">
+    <style>
+        .work-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .page-subtitle {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 3rem;
+        }
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .project-card {
+            background: rgba(26, 33, 48, 0.5);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .project-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .project-info {
+            padding: 1.5rem;
+        }
+        
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+        
+        .project-description {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 1rem;
+        }
+        
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tag {
+            background: rgba(92, 225, 230, 0.1);
+            color: var(--accent-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        
+        .project-link {
+            display: inline-block;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-family: 'Space Mono', monospace;
+            margin-top: 0.5rem;
+            transition: color 0.3s;
+        }
+        
+        .project-link:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with navigation -->
+        <header>
+            <div class="logo">
+                <a href="index.html">HarunGüçlü<span class="blink">._</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><span class="number">01</span> // Ana Sayfa</a></li>
+                    <li><a href="expertise.html"><span class="number">02</span> // Uzmanlık</a></li>
+                    <li><a href="work.html"><span class="number">03</span> // İş</a></li>
+                    <li><a href="experience.html"><span class="number">04</span> // Deneyim</a></li>
+                    <li><a href="contact.html"><span class="number">05</span> // İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <div class="work-container">
+                <h1 class="page-title">İşlerim</h1>
+                <p class="page-subtitle">Son projelerim ve işbirlikçilerden derleme</p>
+                
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">E-Ticret Platformu</h3>
+                            <p class="project-description">Gerçek zamanlı envanter yönetimi ve ödeme işleme özelliği ile çevrim içi alışveriş platformu.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">C#</span>
+                            </div>
+                            <a href="#" class="project-link">Projeleri Görüntüle →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Fitness & Sağlık Uygulaması</h3>
+                            <p class="project-description">Egzersizleri, sağlığı  ve beslenmeyi takip etmek için geliştirilen bir mobil uygulama.</p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">GraphQL</span>
+                                <span class="tag">Machine Learning</span>
+                            </div>
+                            <a href="#" class="project-link">Projeleri Görüntüle →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Real Estate Dashboard</h3>
+                            <p class="project-description">An analytics dashboard for real estate investors with market trends, property valuations, and ROI calculations.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">D3.js</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">AI Content Generator</h3>
+                            <p class="project-description">A web application that uses AI to generate marketing content, blog posts, and social media captions.</p>
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">OpenAI API</span>
+                                <span class="tag">TailwindCSS</span>
+                                <span class="tag">Vercel</span>
+                            </div>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Educational Platform</h3>
+                            <p class="project-description">An interactive learning platform with courses, quizzes, and progress tracking for students and educators.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">Socket.io</span>
+                                <span class="tag">AWS</span>
+                            </div>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('/placeholder.svg?height=400&width=600');"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Smart Home Control</h3>
+                            <p class="project-description">A mobile and web application for controlling smart home devices with automation and energy monitoring.</p>
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">IoT</span>
+                                <span class="tag">MQTT</span>
+                                <span class="tag">Raspberry Pi</span>
+                            </div>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Harun Güçlü. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

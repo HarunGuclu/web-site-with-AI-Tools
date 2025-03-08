@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise - Hraun Güçlü</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;700;900&display=swap">
+    <style>
+        .expertise-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .expertise-card {
+            background: rgba(26, 33, 48, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .expertise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .expertise-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .expertise-card ul {
+            list-style-position: inside;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .expertise-card li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .page-subtitle {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with navigation -->
+        <header>
+            <div class="logo">
+                <a href="index.html">HarunGüçlü<span class="blink">._</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><span class="number">01</span> // Ana Sayfa</a></li>
+                    <li><a href="expertise.html"><span class="number">02</span> // Uzmanlık</a></li>
+                    <li><a href="work.html"><span class="number">03</span> // İş</a></li>
+                    <li><a href="experience.html"><span class="number">04</span> // Deneyim</a></li>
+                    <li><a href="contact.html"><span class="number">05</span> // İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <div class="expertise-container">
+                <h1 class="page-title">Uzmanlıklarım</h1>
+                <p class="page-subtitle">Başarılı olduğum alanlar</p>
+                
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <h3>Front-End Geliştirme</h3>
+                        <ul>
+                           
+                            <li>Vue.js</li>
+                            <li>JavaScript/TypeScript</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expertise-card">
+                        <h3>Mobil Geliştirme</h3>
+                        <ul>
+                            <li>React Native</li>
+                            <li>.Net Core</li>  
+                            <li>Cross-platform Solutions</li>
+                            <li>App Store Optimization</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expertise-card">
+                        <h3>Backend Geliştirme</h3>
+                        <ul>
+                            <li>Node.js & Express</li>
+                            
+                            <li>RESTful APIs</li>
+                            <li>GraphQL</li>
+                            <li>Database Design</li>
+                            
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Harun Güçlü. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
