@@ -1,2 +1,3 @@
 # web-site-with-AI-Tools
-This website is designed with artificial intelligence tool
+These website examples  is designed with artificial intelligence tool..
+Bu web site örnekleri yapay zeka aracı ile tasarlanmıştır..
