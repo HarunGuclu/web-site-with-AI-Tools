@@ -1,0 +1,41 @@
+body{
+    background: url('images/arkaplan-resmi.png') repeat-x center center/cover;
+    color: white;
+    font-family: Arial,
+    sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* Araç Bölümü */
+.cars-container {
+    background-color: rgb(57, 50, 50);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+
+
+    
+
+}
+
+.car {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car p {
+    margin-top: 10px;
+    font-size: 16px;
+}

@@ -6,10 +6,11 @@
 }
 
 body {
-    background: url('images/arkaplan-resmi.png') repeat-x center center/cover;
+    background: url('images/arkaplan-resmi.png') repeat-x repeat-y  center center/cover;
     color: white;
     font-family: Arial, sans-serif;
     height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,10 +20,10 @@ body {
 /* Başlık Stili */
 .container {
     text-align: center;
-    
-    padding-left: 50px;
 
+    height: 63%;
 }
+
 
 h1 {
     font-size: 48px;
@@ -66,31 +67,34 @@ h1 span {
 
 /* İletişim */
 .iletisim {
-    position: absolute;
+    
     bottom: 40px;
     left: 50px;
     font-size: 18px;
+    color: #FFD700;
 }
 
 .iletisim .telefon {
     font-size: 24px;
     font-weight: bold;
+    color: #FFD700;
+    
 }
 .arac_kiralama{
-    position: absolute;
+    /*position: absolute;*/
     bottom: 40px;
     right: 50px;
     font-size: 24px;
     font-weight: bold;
+    color: #FFD700;
 }
 .araclar p{
    
     display: inline;
-    position: absolute;
-    bottom: 40px;
-    left: 550px;
+    left: 500px;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
-    color: white;
+    color: #FFD700;
 }
+
+
